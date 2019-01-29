@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: easyshop-eureka
+server:
+  port: 7001
+eureka:
+  instance:
+    hostname: eureka-service
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
