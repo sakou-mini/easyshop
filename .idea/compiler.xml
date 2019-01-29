@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="basic-util" />
+        <module name="config-service-1299" />
         <module name="eureka-service-7001" />
         <module name="plat-interface" />
         <module name="plat-service" />
@@ -17,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="basic-parent" target="1.8" />
       <module name="basic-util" target="1.8" />
+      <module name="config-service-1299" target="1.8" />
       <module name="easyshop-parent" target="1.8" />
       <module name="eureka-service-7001" target="1.8" />
       <module name="plat-interface" target="1.8" />
